@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+  <link rel="shortcut icon" href="img/Favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Elitas</title>
+</head>
+<body>
+  <header class="header" id="header">
+  <div class="container header-container">
+    <a href="#" class="logo">
+      <span class="logo__text">ELITAS</span>
+    </a>
+    <nav class="nav header-nav">
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+      <ul class="menu">
+        <li class="menu-item"><a href="#header" class="menu-link">Вверх</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Акции</a></li>
+        <li class="menu-item"><a href="#catalog" class="menu-link">Каталог</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Доставка</a></li>
+        <li class="menu-item"><a href="#feedback" class="menu-link">Контакты</a></li>
+        <li class="menu-item"><a href="#" class="menu-link city">
+          <span class="link-text">г.Витебск</span>
+          <i class="fas fas-s fa-chevron-down"></i>
+        </a>
+        </li>
+        <li class="menu-item"><a href="#" class="menu-link cart">
+          <span class="cart-notification">12</span>
+          <i class="fas fa-shopping-cart"></i>
+          <span class="link-text">Корзина</span>
+        </a>
+        </a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-slider slider swiper">
+    <div class="slider-wrapper swiper-wrapper">
+      <div class="slider__slide slide__1 swiper-slide">
+        <!-- <picture><source srcset="img/bg-pike.webp" type="image/webp"><img class="slide-bg slide-bg--pike" src="img/bg-pike.jpg" alt="BG: pike"></picture> -->
+        <div class="slide-content ">
+          <h2 class="title slide__title">ПРИМАНКИ ДЛЯ РЫБАЛКИ</h2>
+          <p class="text slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo dui eu augue sagittis elementum. Cras mattis massa interdum vulputate volutpat. Duis vel bibendum magna.</p>
+          <a href="#catalog" class="btn-link slide-btn">Каталог</a>
+          <div class="button-group header-button-group">
+            <button class="slide__btn-nav header-slide__btn-left"><i class="fas fa-chevron-left"></i></button>
+            <button class="slide__btn-nav header-slide__btn-right"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="slider__slide slide__2 swiper-slide">
+        <!-- <picture><source srcset="img/bg-pike.webp" type="image/webp"><img class="slide-bg slide-bg--pike" src="img/bg-pike.jpg" alt="BG: pike"></picture> -->
+        <div class="slide-content ">
+          <h2 class="title slide__title">ИНТСРУМЕНТЫ</h2>
+          <p class="text slide__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo dui eu augue sagittis elementum. Cras mattis massa interdum vulputate volutpat. Duis vel bibendum magna.</p>
+          <a href="#catalog" class="btn-link slide-btn">Каталог</a>
+          <div class="button-group header-button-group">
+            <button class="slide__btn-nav header-slide__btn-left"><i class="fas fa-chevron-left"></i></button>
+            <button class="slide__btn-nav header-slide__btn-right"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- / header -->
+
+<section class="example">
+  <div class="container example-container swiper">
+    <header class="example-header">
+      <h2 class="title example__title">Ваш улов с нашими приманками</h2>
+      <div class="button-group example-button-group">
+        <button class="slide__btn-nav main-slide__btn main-slide__btn-left"><i class="fas fa-chevron-left"></i></button>
+        <button class="slide__btn-nav main-slide__btn main-slide__btn-right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </header>
+    <!-- <div class="example-slider swiper"> -->
+      
+      <div class="cards example-cards swiper-wrapper">
+        <arcticle class="card card-example swiper-slide">
+          <picture><source srcset="img/fish/perca.webp" type="image/webp"><img src="img/fish/perca.jpg" alt="Fish: Карп" class="card-img"></picture>
+          <div class="card-content">
+            <h3 class="card__title">Карп</h3>
+            <p class="card__description">Имеет спинной плавник с характерной черной точкой и острыми колючками, и темные полосы на теле. Рот расположен немного вверх, и имеет много мелких заостренных зубов. Окрас тела окуня в основном зависит от цвета воды, дна водоема и рациона.
+            </p>
+            <div class="card-footer">
+              <span class="card__info">до 6кг</span>
+              <button class="card__btn btn-primary">Выбрать</button>
+            </div>
+          </div>
+        </arcticle>
+        <arcticle class="card card-example swiper-slide">
+          <picture><source srcset="img/fish/ruff.webp" type="image/webp"><img src="img/fish/ruff.jpg" alt="Fish: Окунь" class="card-img"></picture>
+          <div class="card-content">
+            <h3 class="card__title">Окунь</h3>
+            <p class="card__description">Бывают карпы практически без чешуи. Голова карпа большая, рот выдвижной. На верхней губе находятся две пары усов. Спинной плавник карпа длинный и имеет небольшую выемку, анальный плавник – короткий.</p>
+            <div class="card-footer">
+              <span class="card__info">до 10кг</span>
+              <button class="card__btn btn-primary">Выбрать</button>
+            </div>
+          </div>
+        </arcticle>
+        <arcticle class="card card-example swiper-slide">
+          <picture><source srcset="img/fish/karasik.webp" type="image/webp"><img src="img/fish/karasik.png" alt="Fish: Карась" class="card-img"></picture>
+          <div class="card-content">
+            <h3 class="card__title">Карась</h3>
+            <p class="card__description">Тело высокое с толстой спиной, умеренно сжатое с боков. Чешуя крупная и гладкая на ощупь. Окраска варьирует в зависимости от места обитания.
+  
+            </p>
+            <div class="card-footer">
+              <span class="card__info">до 8кг</span>
+              <button class="card__btn btn-primary">Выбрать</button>
+            </div>
+          </div>
+        </arcticle>
+      </div>
+    <!-- </div> -->
+  </div>
+</section>
+<!-- / example -->
+
+<section class="catalog" id="catalog">
+  <div class="container catalog-container">
+    <h2 class="title catalog__title">КАТАЛОГ</h2>
+    <nav class="catalog-nav">
+      <ul class="menu-btns catalog-menu-btns">
+        <li class="menu__btn-link"><button class="btn-menu" type="menu">Все</button></li>
+        <li class="menu__btn-link"><button class="btn-menu" type="menu">Окунь</button></li>
+        <li class="menu__btn-link"><button class="btn-menu" type="menu">Карп</button></li>
+        <li class="menu__btn-link"><button class="btn-menu" type="menu">Карась</button></li>
+        <li class="menu__btn-link"><button class="btn-menu" type="menu">Щука</button></li>
+      </ul>
+    </nav>
+    <div class="cards catalog-cards">
+      <arcticle class="card card-m card-catalog">
+        <picture><source srcset="img/bait/bait8.webp" type="image/webp"><img src="img/bait/bait8.jpg" alt="Img: bait" class="card-img card-m-img"></picture>
+        <div class="card-content card-m-content">
+          <h3 class="card__title card-m__title">Твистер PBHPG2-W Power grub</h3>
+          <!-- <p class="card__description">
+            - Бренд: Berkley
+            - Длина (см): 5
+            - Вид ловли: джиг
+            - Для ловли рыб: окунь
+            - Цвет: White
+          </p> -->
+          <ul class="card__description card-m__description">
+            <li class="card__description-info">Бренд: Berkley</li>
+            <li class="card__description-info">Длина (см): 5</li>
+            <li class="card__description-info">Вид ловли: джиг</li>
+            <li class="card__description-info">Для ловли рыб: окунь</li>
+            <li class="card__description-info">Цвет: White</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card__info card-m__info">от 299р</span>
+            <button class="card__btn btn-primary">Выбрать</button>
+          </div>
+        </div>
+      </arcticle>
+      <arcticle class="card card-catalog">
+        <picture><source srcset="img/bait/bait6.webp" type="image/webp"><img src="img/bait/bait6.jpg" alt="Img: bait" class="card-img card-m-img"></picture>
+        <div class="card-content card-m-content">
+          <h3 class="card__title card-m__title">Rocket Craw PowerBait</h3>
+          <ul class="card__description card-m__description">
+            <li class="card__description-info">Бренд: Berkley</li>
+            <li class="card__description-info">Длина (см): 8</li>
+            <li class="card__description-info">Вид ловли: джиг</li>
+            <li class="card__description-info">Для ловли рыб: судак, щука</li>
+            <li class="card__description-info">Цвет: Purple Pumpkin Red</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card__info card-m__info">от 349р</span>
+            <button class="card__btn btn-primary">Выбрать</button>
+          </div>
+        </div>
+      </arcticle>
+      <arcticle class="card card-catalog">
+        <picture><source srcset="img/bait/bait5.webp" type="image/webp"><img src="img/bait/bait5.jpg" alt="Img: bait" class="card-img card-m-img"></picture>
+        <div class="card-content card-m-content">
+          <h3 class="card__title card-m__title">Нимфа Berkley PowerBait</h3>
+          <ul class="card__description card-m__description">
+            <li class="card__description-info">Бренд: Berkley</li>
+            <li class="card__description-info">Длина (см): 2,5</li>
+            <li class="card__description-info">Вид ловли: ловля форели</li>
+            <li class="card__description-info">Цвет: Pink Scales</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card__info card-m__info">от 260р</span>
+            <button class="card__btn btn-primary">Выбрать</button>
+          </div>
+        </div>
+      </arcticle>
+      <arcticle class="card card-catalog">
+        <picture><source srcset="img/bait/bait7.webp" type="image/webp"><img src="img/bait/bait7.jpg" alt="Img: bait" class="card-img card-m-img"></picture>
+        <div class="card-content card-m-content">
+          <h3 class="card__title card-m__title">Блесна AGS SUKOSHI</h3>
+          <ul class="card__description card-m__description">
+            <li class="card__description-info">Бренд: Berkley</li>
+            <li class="card__description-info">Длина (см): 3,89</li>
+            <li class="card__description-info">Вид ловли: спиннинг</li>
+            <li class="card__description-info">Вес (гр): 3,5</li>
+            <li class="card__description-info">Для ловли рыб: судак, щука</li>
+            <li class="card__description-info">Вид ловли: ловля форели</li>
+            <li class="card__description-info">Цвет: Edge stripe Silver/Blue</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card__info card-m__info">от 599р</span>
+            <button class="card__btn btn-primary">Выбрать</button>
+          </div>
+        </div>
+      </arcticle>
+    </div>
+    <div class="catalog-footer">
+      <button class="btn-menu btn-more">Посмотреть еще</button>
+    </div>
+  </div>
+</section>
+<!-- / catalog-->
+
+<section class="feedback" id="feedback">
+  <div class="container feedback-container">
+    <header class="feedback-header">
+      <h2 class="title feedback__title">Обратная связь</h2>
+    </header>
+    <div class="feedback-reference">
+      <picture><source srcset="img/fish-transparent.webp" type="image/webp"><img class="feedback__img" src="img/fish-transparent.png" alt="Img: reference" /></picture>
+    </div>
+    <div class="feedback-content">
+      <div class="feedback-contacts">
+        <div class="feedback__contacts-group">
+          <h4 class="feedback__contacts-title">Контакты</h4>
+          <div class="feedback__contacts-content">
+            <span class="phone-num">+375 (29) 216-61-66</span>
+            <span class="phone-num">+375 (33) 662-66-00</span>
+          </div>
+        </div>
+        <div class="feedback__contacts-group">
+          <h4 class="feedback__contacts-title">Рабочая почта</h4>
+          <div class="feedback__contacts-content">
+            <span class="mail">dostavka@elitas.by</span>
+          </div>
+        </div>
+        <div class="feedback__contacts-group">
+          <h4 class="feedback__contacts-title">Главный офис</h4>
+          <div class="feedback__contacts-content">
+            <span class="adress">г.Витебск, ул.Горовца, 10А</span>
+          </div>
+        </div>
+        <div class="feedback__contacts-footer">
+          <button class="btn-primary btn-call">ПОЗВОНИТЬ</button>
+        </div>
+      </div>
+      <div class="feedback-map">
+          <iframe 
+          class="map-location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2276.822433254418!2d30.209112415805777!3d55.20386508041007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c57407a2b20eb9%3A0x518c75027ab66196!2sUlitsa%20Gorovtsa%2010%2C%20Viciebsk!5e0!3m2!1sen!2sby!4v1630077671632!5m2!1sen!2sby"           width="670" height="375" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <a href="#" class="logo">
+      <span class="logo__text">ELITAS</span>
+    </a>
+    <span class="rights">Все права защищены Elitas.by © 2021</span>
+    <div class="group-socialnet">
+      <a href="https://vk.com/" class="socialnet">
+        <i class="fab fa-vk socialnet-ico"></i>
+      </a>
+      <a href="https://www.instagram.com/" class="socialnet">
+        <i class="fab fa-instagram socialnet-ico"></i>
+      </a>
+      <a href="https://www.facebook.com/" class="socialnet">
+        <i class="fab fa-facebook-square socialnet-ico"></i>
+      </a>
+      <a href="https://ok.ru/" class="socialnet">
+        <i class="fab fa-odnoklassniki-square socialnet-ico"></i>
+      </a>
+      
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9121ae8c37.js" crossorigin="anonymous"></script>
+  <script src="js/script.min.js"></script>
+</body>
+</html>
