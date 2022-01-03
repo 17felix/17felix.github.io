@@ -1,13 +1,13 @@
 # 17felix.github.io
-Here you can find my projects
-
+Here you can find my projects https://17felix.github.io/
+ 
 ## list of projects:
-- Star-wars promo  -------------------- add 17felix.github.io/star-wars
-- Ghostbusters promo   ---------------- add 17felix.github.io/ghostbusters
-- SpaceX promo ------------------------ add  17felix.github.io/spaceX
-- Course work(pizza_house(539)) promo - add 17felix.github.io/Course_pizza_house
-- Mortal combat promo ----------------- add 17felix.github.io/MK
-- Darlene's potfolio  promo ----------- add 17felix.github.io/potfolio_D
+- Star-wars promo  -------------------- add https://17felix.github.io/star-wars
+- Ghostbusters promo   ---------------- add https://17felix.github.io/ghostbusters
+- SpaceX promo ------------------------ add https://17felix.github.io/spaceX
+- Course work(pizza_house(539)) promo - add https://17felix.github.io/Course_pizza_house
+- Mortal combat promo ----------------- add https://17felix.github.io/MK
+- Darlene's potfolio  promo ----------- add https://17felix.github.io/potfolio_D
 
 
 ## Portfolio v1.0
