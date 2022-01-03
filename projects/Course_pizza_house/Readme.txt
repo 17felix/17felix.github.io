@@ -18,3 +18,7 @@ changelog:
 I finished it and decided to help {Vika&Katy}.
 I knew smth about html&css so why wouldn't i help while {Kate} made [text] for me..
 22/12/2020
+
+My skill haven't improved much, since last year, yet i have a bit more ideas to do. 
+Anyway, Max need your help, so by golden rule you'll help him. This is not the steadiest way, but the fastest.
+03/01/2022
