@@ -1,0 +1,116 @@
+$margin: 50px;
+$margin-s: 25px;
+
+$cl--primary: rgba(255, 209, 0, 1);
+$cl--secondary: rgba(0, 51, 141, 1);
+
+/* neutral */
+
+$cl--neutral-white: rgb(255, 255, 255);
+$cl--neutral-gray-light: rgba(245, 245, 245, 1);
+$cl--neutral-gray-stars: rgba(226, 226, 226, 1);
+$cl--neutral-gray-light-middle: rgba(197, 197, 197, 1);
+$cl--neutral-gray-middle: rgba(145, 145, 145, 1);
+$cl--neutral-gray-dark: rgba(97, 99, 101, 1);
+$cl--neutral-gray-black: rgba(63, 63, 63, 1);
+$cl--neutral-black: rgba(15, 15, 15, 1);
+
+$cl--action-error: rgba(173, 2, 12, 1);
+$cl--action-sale-active: rgba(255, 0, 0, 1);
+$cl--action-sale-default: rgba(255, 102, 102, 1);
+$cl--action-sale-remove: rgba(255, 71, 71, 1);
+
+$cl--neutral-bg: rgba(229, 229, 229, 1);
+
+/* fonts */
+$fz-h1: 56px; 
+$fz-h2: 40px; 
+$fz-h3: 28px; 
+$fz-h4: 26px; 
+$fz-h5: 20px; 
+$fz-h6: 18px; 
+$fz-subtitle1: 16px; 
+$fz-subtitle2: 14px; 
+$fz-body1: 16px; 
+$fz-body2: 14px; 
+$fz-small1: 13px; 
+$fz-small2: 12px; 
+$fz-small3: 10px; 
+$fz-button: 15px; 
+$fz-initials: 13px; 
+
+$w-col: 65px;
+$w-full-col: 95px;
+$w-gap: 30px;
+
+
+// === / Variables ===
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $fz-body1;
+}
+
+a {
+  
+  text-decoration: none;
+  color: $cl--neutral-gray-light;
+  transition: 0.1s;
+}
+a:hover {
+  transition: 0.1s;
+  // color: $cl--primary;
+}
+body {
+  background: $cl--neutral-bg;
+  color: $cl--neutral-gray-dark;
+  // background: linear-gradient(180deg, rgba(238,174,202,0) 15%, $color1 100%);  
+  // background-repeat: no-repeat;
+  
+
+}
+// === /Reset === 
+
+.btn-link {
+  font-size: $fz-button;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: rgba(255, 255, 255, 0.2) 2px solid;
+  outline: none;
+  // background: $color1h;
+  // margin: 20px;
+  // gap: 10px;
+  color: rgb(255, 255, 255);
+
+  &:hover {
+    border: #fff 2px solid;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+}
+
+
+// === /Main === 
+
+//-- /sidebar -- 
+.sidebar {
+  background: $cl--neutral-white; 
+  position: fixed;
+  // left: 0;
+  width: 256px;
+  width: $w-full-col;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100;
+
+  @media (min-width: 1440px)
+  {
+    & {
+      // width: vw(256px);
+      // height: 100%;
+		}
+  }
+}
