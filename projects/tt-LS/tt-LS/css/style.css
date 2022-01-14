@@ -6,8 +6,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
 }
 
 a {
@@ -45,14 +45,35 @@ body {
           transform: translateY(-2px);
 }
 
-.sidebar {
-  background: white;
-  position: fixed;
-  width: 256px;
-  width: 95px;
-  height: 100%;
-  overflow: hidden;
-  z-index: 100;
+.border-none {
+  border: none;
+}
+
+.btn-counter {
+  position: relative;
+}
+
+.btn-counter::after {
+  position: absolute;
+  top: -5px;
+  right: -2px;
+  content: "5";
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  font-size: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  background: #000;
 }
 @supports (-webkit-appearance:none){
 

@@ -1,8 +1,74 @@
 <div class="page-container">
 
   <header class="header">
-    <div class="container header-container">
-      
+    <div class="header-container">
+      <div class="header-info-container bg-warning p-1 text-center">
+        <span class="header-info-txt">Скидки до -50% на выделенный ассортимент</span>
+      </div>
+      <!-- /.header-info-container -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-dark align-items-center justify-content-center">
+          <div class="container">
+
+          <div class="navbar-inner-left d-flex">
+            <button class="navbar-toggler d-lg-none p-0 me-2 btn-outline-warning border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon--black btn-outline-warning border-0">
+                <img src="img/icon/burger-menu.svg" alt="Icon: burgermenu" class="navbar__icon">
+              </span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="collapsibleNavId"> -->
+            <div class="collapse navbar-collapse" id="#">
+              <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <form class="d-flex my-2 my-lg-0 w">
+              <input class="form-control me-sm-2 d-none d-lg-flex" type="text" placeholder="Search">
+              <button class="btn my-sm-0 btn-outline-warning border-0" type="submit">
+                <img src="img/icon/i-search.svg" alt="" class="i-search">
+              </button>
+            </form>
+          </div>
+          <a class="navbar-brand" href="#">
+            <img src="img/icon/brand.svg" alt="Icon: brand" class="i-brand">
+          </a>
+          <div class="navbar-inner-right d-flex">
+            <div class="Navbar-inner-right-imgs">
+              <button class="btn btn-outline-warning border-0 btn-counter">
+                <img src="img/icon/heart.svg" alt="Icon: heart" class="navbar__icon">
+              </button>
+              <button class="btn btn-outline-warning border-0 btn-counter">
+                <img src="img/icon/cart.svg" alt="Icon: cart" class="navbar__icon">
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- /.navbar -->
+
+      <div class="header-info-container bg-light p-1 text-center d-flex flex-row align-items-center justify-content justify-content-between">
+        <button class="btn btn-outline-warning border-0">
+          <img src="img/icon/i-arr_left.svg" alt="Icon: arr down" class="navbar__icon header-info__icon">
+        </button>
+        <div class="header-info-inner d-flex align-items-center">
+          <img src="img/icon/local_shipping.svg" alt="" class="navbar__icon header-info__icon me-3">
+          <span class="header-info-txt">Бесплатная доставка до двери по всей России</span>
+        </div>
+        <button class="btn btn-outline-warning border-0">
+          <img src="img/icon/i-arr_right-sm.svg" alt="Icon: arr down" class="navbar__icon header-info__icon">
+        </button>
+      </div>
+    
     </div>
   </header>
   <!-- /.header -->
