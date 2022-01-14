@@ -1,8 +1,18 @@
+// === Test Task from TaheonSystems ===
+// chnage font-style: DIN -> Bebas Neue
+
 $margin: 50px;
 $margin-s: 25px;
 
 $cl--primary: rgba(255, 209, 0, 1);
 $cl--secondary: rgba(0, 51, 141, 1);
+
+.cl--primary {
+  color: $cl--primary;
+}
+.cl--secondary {
+  color: $cl--secondary;
+}
 
 /* neutral */
 
@@ -15,12 +25,47 @@ $cl--neutral-gray-dark: rgba(97, 99, 101, 1);
 $cl--neutral-gray-black: rgba(63, 63, 63, 1);
 $cl--neutral-black: rgba(15, 15, 15, 1);
 
+.cl--white {
+  color: $cl--neutral-white;
+}
+.cl--gray-xl {
+  color: $cl--neutral-gray-light;
+}
+.cl--gray-l {
+  color: $cl--neutral-gray-light-middle;
+}
+.cl--gray {
+  color: $cl--neutral-gray-middle;
+}
+.cl--gray-d {
+  color: $cl--neutral-gray-dark;
+}
+.cl--gray-xd {
+  color: $cl--neutral-gray-black;
+}
+.cl--black {
+  color: $cl--neutral-black;
+}
+
+
 $cl--action-error: rgba(173, 2, 12, 1);
 $cl--action-sale-active: rgba(255, 0, 0, 1);
 $cl--action-sale-default: rgba(255, 102, 102, 1);
 $cl--action-sale-remove: rgba(255, 71, 71, 1);
+.cl--a-error {
+  color: $cl--action-error;
+}
+.cl--a-sale-active {
+  color: $cl--action-sale-active;
+}
+.cl--a-sale-default {
+  color: $cl--action-sale-default;
+}
+.cl--a-sale-remove {
+  color: $cl--action-sale-remove;
+}
 
-$cl--neutral-bg: rgba(229, 229, 229, 1);
+// $cl--neutral-bg: rgba(229, 229, 229, 1);
 
 $primary: $cl--action-error;
 $secondary: $cl--action-error;
@@ -53,14 +98,31 @@ $grid-breakpoints: (
 );
 
 /* fonts */
-$fz-h1: 38px; 
-$fz-h2: 40px; 
-$fz-h3: 28px; 
-$fz-h4: 26px; 
-$fz-h5: 20px; 
-$fz-h6: 18px; 
-$fz-subtitle1: 16px; 
-$fz-subtitle2: 14px; 
+.h1 {
+  font-size: 56px; 
+}
+.h2{
+  font-size: 40px;
+} 
+.h3{
+  font-size: 28px;
+} 
+.h4{
+  font-size: 26px;
+} 
+.h5{
+  font-size: 20px;
+} 
+.h6{
+  font-size: 18px;
+} 
+.subtitle1{
+  font-size: 16px;
+  font-weight: 500;
+} 
+.subtitle2{
+  font-size: 14px;
+} 
 $fz-body1: 16px; 
 $fz-body2: 14px; 
 $fz-small1: 13px; 
@@ -73,7 +135,14 @@ $w-col: 65px;
 $w-full-col: 95px;
 $w-gap: 30px;
 
-
+.font-family--secondary {
+  font-family: 'Bebas Neue', cursive;
+}
+.font-family--primary {
+  font-family: 'Jost', sans-serif;
+}
+// 
+// --- / Fonts ---
 // === / Variables ===
 
 * {
@@ -87,7 +156,7 @@ $w-gap: 30px;
 a {
   
   text-decoration: none;
-  color: $cl--neutral-gray-light;
+  color: $cl--neutral-black;
   transition: 0.1s;
 }
 a:hover {
@@ -95,12 +164,11 @@ a:hover {
   // color: $cl--primary;
 }
 body {
-  color: $cl--neutral-gray-dark;
+  // color: $cl--neutral-gray-dark;
   // background: linear-gradient(180deg, rgba(238,174,202,0) 15%, $color1 100%);  
   // background-repeat: no-repeat;
-  
-
 }
+
 // === /Reset === 
 
 .btn-link {
@@ -165,3 +233,42 @@ body {
 .Navbar-inner-right-imgs {
   
 }
+
+// --- Section 2: Intro ---
+.intro {
+  padding-bottom: 200px;
+}
+.intro-txt--attention {
+  margin-top: 64px;
+  margin-bottom: 135px;
+}
+.intro-txt__title {
+  letter-spacing: 2px;
+}
+.intro-txt__description {
+
+}
+// .description {
+//   align-self: center;
+// }
+
+.btn-group {
+  margin-top: 20px;
+}
+.btn-desription {
+}
+.btn {
+}
+.circle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  // padding: (15px - 12px) (15px - 7px);
+  padding: 6px 12px
+}
+.btn-toolbar {
+}
+.btn-icon {
+}
+
