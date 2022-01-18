@@ -417,7 +417,6 @@ body {
   &__description {
   }
 }
-
 .hero-img-container {
 }
 .hero-img {
@@ -428,4 +427,97 @@ body {
 }
 .hero-txt {
   margin: 40px 0;
+}
+
+
+// --- Section 6: Brand-value
+.brand-value {
+  background: $cl--neutral-gray-light;
+  padding: 40px 0;
+  // .brand-value__title
+
+  &__title {
+  }
+
+  // .brand-value__description
+
+  &__description {
+  }
+}
+.brand-value-container {
+}
+.container {
+}
+.brand-value-txt {
+  margin-bottom: 40px;
+}
+
+// --- block-txt
+.block-txt {
+  margin: 40px 0;
+  
+  //.block__title
+  & > h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px
+  }
+  //.block__description
+  & > p {
+
+  }
+
+}
+
+// -- accordion
+.accordion {
+  position: relative;
+  margin: 10px 0;
+  // width: 90%;
+
+  
+  &:hover {
+    box-shadow: 0px 0px 25px rgba(31, 31, 31, 0.1);;
+  }
+
+  &__controll{
+    display: none;
+  }
+
+}
+
+.accordion-faq {
+  background: #fff;
+  color: #000;
+  padding: 25px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(255, 240, 240);
+}
+.accordion-faq::after{
+  content:"+";
+  display: inline-block;
+  // margin-right: 20px;
+  margin-left: auto;
+}
+.accordion-faq{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.accordion-content{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background-color: white;
+  box-shadow: 0px 0px 25px rgba(31, 31, 31, 0.1);
+}
+.accordion-content p {
+  padding: 30px;
+}
+input:checked ~ .accordion-faq::after{
+  content: "—";
+}
+input:checked ~ .accordion-content{
+  max-height: 400px;
 }
