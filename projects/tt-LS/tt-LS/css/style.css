@@ -7519,6 +7519,10 @@ input:checked ~ .accordion-content {
   max-height: 400px;
 }
 
+.heritage {
+  padding: 100px 0;
+}
+
 @media (min-width: 576px) {
   .container,
   .container-sm {

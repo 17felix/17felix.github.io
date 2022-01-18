@@ -234,7 +234,7 @@ body {
   
 }
 
-// --- Section 2: Intro ---
+// --- Section 1: Intro ---
 .intro {
   padding-bottom: 130px;
   // overflow: hidden;
@@ -283,7 +283,7 @@ body {
 }
 
 
-// --- Section 3: Story ---
+// --- Section 2: Story ---
 // -- Subcetion 1: Story-points --
 .story {
   
@@ -376,7 +376,7 @@ body {
 }
 
 
-// --- Section 4: Map ---
+// --- Section 3: Map ---
 .map {
   background: $cl--neutral-gray-light;
   padding: 50px 0;
@@ -401,7 +401,7 @@ body {
 }
 
 
-// --- Section 5: Hero ---
+// --- Section 4: Hero ---
 .hero {
   padding: 100px 0;
   // .hero__title
@@ -430,7 +430,7 @@ body {
 }
 
 
-// --- Section 6: Brand-value
+// --- Section 5: Brand-value
 .brand-value {
   background: $cl--neutral-gray-light;
   padding: 40px 0;
@@ -464,9 +464,7 @@ body {
   }
   //.block__description
   & > p {
-
   }
-
 }
 
 // -- accordion
@@ -521,3 +519,31 @@ input:checked ~ .accordion-faq::after{
 input:checked ~ .accordion-content{
   max-height: 400px;
 }
+
+
+// --- Section 6: Heritage
+.heritage {
+  padding: 100px 0;
+
+  // .heritage__title
+
+  &__title {
+  }
+
+  // .heritage__desription
+
+  &__desription {
+  }
+}
+.heritage-img-container {
+}
+.hero-img {
+}
+.heritage-container {
+}
+.container {
+}
+.block-txt {
+}
+
+
