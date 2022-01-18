@@ -7341,7 +7341,17 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 50%;
-  padding: 6px 12px;
+  padding: 9px 12px;
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+}
+
+.circle-btn:hover {
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+  opacity: 0.8;
 }
 
 .intro-img-container {
@@ -7543,6 +7553,76 @@ input:checked ~ .accordion-content {
 
 .i-soc-net {
   font-size: 15px;
+}
+
+.model {
+  position: relative;
+}
+
+.model-casual {
+  background: -webkit-gradient(linear, right top, left top, from(#D6D6D6), to(#E0E0E0));
+  background: -o-linear-gradient(right, #D6D6D6 0%, #E0E0E0 100%);
+  background: linear-gradient(270deg, #D6D6D6 0%, #E0E0E0 100%);
+}
+
+.model-casual__img {
+  width: 250px;
+}
+
+.model-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn-model-casual,
+.btn-model {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+
+.model-vintage {
+  padding-bottom: 40px;
+}
+
+.btn-model-vintage {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+
+.model-archive {
+  background: -webkit-gradient(linear, right top, left top, from(#ADADAD), to(#C7C7C7));
+  background: -o-linear-gradient(right, #ADADAD 0%, #C7C7C7 100%);
+  background: linear-gradient(270deg, #ADADAD 0%, #C7C7C7 100%);
+}
+
+.model-archive-inner {
+  margin-left: 20px;
+}
+
+.btn-model-archive {
+  position: absolute;
+  top: 85%;
+  left: 0;
+}
+
+.model-womenswear {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#FCFCFC));
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #FCFCFC 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FCFCFC 100%);
+}
+
+.model-blackE {
+  background: -webkit-gradient(linear, right top, left top, from(#D6D6D6), to(#E0E0E0));
+  background: -o-linear-gradient(right, #D6D6D6 0%, #E0E0E0 100%);
+  background: linear-gradient(270deg, #D6D6D6 0%, #E0E0E0 100%);
 }
 
 @media (min-width: 576px) {
