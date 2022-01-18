@@ -1,0 +1,98 @@
+// === Mixins ===
+
+// -- auto import to fonts.scss
+@mixin font($font_name, $file_name, $weight, $style) {
+
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+    url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+// -- calcs to make adaptiv font
+$maxWidth: 1280;
+@mixin adaptiv-font($pcFSize, $mobFSize) {
+  $addSize: $pcFSize - $mobFSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: 767px) {
+    font-size: calc(#{$mobFSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));
+  }
+  @media (max-width: 767px) {
+    font-size: calc(#{$mobFSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+}
+
+// -- convert px -> vw
+$vw-viewport: 1920;
+@function get-vw($font){
+  $vw-context: $vw-viewport * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}
+// screan 1920px 
+@function vw($px-vw, $base-vw: 1920px) {
+    @return ($px-vw * 100vw) / $base-vw;
+}
+// tablet 768px 
+@function vwt($px-vw, $base-vw: 768px) {
+  @return ($px-vw * 100vw) / $base-vw;
+}
+// mobile  320px
+@function vwm($px-vw, $base-vw: 320px) {
+  @return ($px-vw * 100vw) / $base-vw;
+}
+// === / Mixins ===
+
+
+// === Variables ===
+
+$screen-xs: 300px;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+
+
+
+
+// === / Variables ===
+
+
+// @import 'normalize';
+// === Styles ===
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+// ALL components
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// 5. Add additional custom code here
+// @import '../../node_modules/normalize.css/normalize.css';
+// @import 'fonts';
+
+
+@import '_bs5-customize';
+@import '_LS';
+
+
+// @import 'burger-menu';
+// @import 'testGulp';
+// === / Styles ===
