@@ -276,3 +276,28 @@ body {
 .intro-img-container {
   padding-top: 200px;
 }
+
+
+
+// --- Section 3: Story ---
+.story {
+}
+.story-container {
+  // margin-left: 30px;
+}
+.story-item {
+  margin: 10px 0;
+
+		// .story-item__title
+
+		&__title {
+      font-size: 48px;
+		}
+
+		// .story-item__subtitle
+
+		&__subtitle {
+		}
+}
+.story-item-txt {
+}

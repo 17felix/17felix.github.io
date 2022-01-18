@@ -199,6 +199,14 @@ a:hover {
 .intro-img-container {
   padding-top: 200px;
 }
+
+.story-item {
+  margin: 10px 0;
+}
+
+.story-item__title {
+  font-size: 48px;
+}
 @supports (-webkit-appearance:none){
 
 }
