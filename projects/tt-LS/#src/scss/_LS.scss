@@ -391,8 +391,6 @@ body {
 }
 .map-container {
 }
-.container {
-}
 .map-txt {
   // width: 90%;
 }
@@ -400,4 +398,34 @@ body {
 }
 .map-icon {
   width: 95%;
+}
+
+
+// --- Section 5: Hero ---
+.hero {
+  padding: 100px 0;
+  // .hero__title
+
+  &__title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  // .hero__description
+
+  &__description {
+  }
+}
+
+.hero-img-container {
+}
+.hero-img {
+}
+.hero-container {
+}
+.container {
+}
+.hero-txt {
+  margin: 40px 0;
 }

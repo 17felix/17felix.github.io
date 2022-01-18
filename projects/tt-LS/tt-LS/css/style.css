@@ -7421,6 +7421,20 @@ a:hover {
   width: 95%;
 }
 
+.hero {
+  padding: 100px 0;
+}
+
+.hero__title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-txt {
+  margin: 40px 0;
+}
+
 @media (min-width: 576px) {
   .container,
   .container-sm {
