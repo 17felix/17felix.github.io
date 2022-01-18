@@ -237,7 +237,10 @@ body {
 // --- Section 2: Intro ---
 .intro {
   padding-bottom: 130px;
-
+  overflow: hidden;
+}
+.intro-container {
+  // overflow: hidden;
 }
 .intro-txt--attention {
   margin-top: 64px;
@@ -276,14 +279,22 @@ body {
 .intro-img-container {
   padding-top: 200px;
 }
-
+.hero-img {
+  width: 100%;
+}
 
 
 // --- Section 3: Story ---
+// -- Subcetion 1: Story-points --
 .story {
+  
+  overflow: hidden;
 }
 .story-container {
-  // margin-left: 30px;
+  margin-left: 12px;
+}
+.story-points {
+  margin-bottom: 130px;
 }
 .story-item {
   margin: 10px 0;
@@ -291,13 +302,31 @@ body {
 		// .story-item__title
 
 		&__title {
-      font-size: 48px;
+      font-size: 48px; 
 		}
 
 		// .story-item__subtitle
 
 		&__subtitle {
+      color: $cl--neutral-gray-middle;
 		}
 }
 .story-item-txt {
+}
+
+// -- Subcetion 2: Story-main --
+.story-main {
+
+  // .story-main__title
+
+  &__title {
+    font-size: 22px;
+  }
+
+  // .story-main__description
+
+  &__description {
+  }
+}
+.story-main-txt {
 }

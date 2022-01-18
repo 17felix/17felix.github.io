@@ -167,6 +167,7 @@ a:hover {
 
 .intro {
   padding-bottom: 130px;
+  overflow: hidden;
 }
 
 .intro-txt--attention {
@@ -200,12 +201,36 @@ a:hover {
   padding-top: 200px;
 }
 
+.hero-img {
+  width: 100%;
+}
+
+.story {
+  overflow: hidden;
+}
+
+.story-container {
+  margin-left: 12px;
+}
+
+.story-points {
+  margin-bottom: 130px;
+}
+
 .story-item {
   margin: 10px 0;
 }
 
 .story-item__title {
   font-size: 48px;
+}
+
+.story-item__subtitle {
+  color: #919191;
+}
+
+.story-main__title {
+  font-size: 22px;
 }
 @supports (-webkit-appearance:none){
 
