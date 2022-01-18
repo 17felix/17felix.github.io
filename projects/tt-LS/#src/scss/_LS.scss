@@ -873,6 +873,11 @@ input:checked ~ .accordion-content{
 		// .menu-adress__title
 
 		&__title {
+      color: #fff;
+		}
+		&__title:hover {
+      color: #fff;
+      opacity: 0.8;
 		}
 }
 .footer-accordion-menu {
@@ -962,7 +967,7 @@ input:checked ~ .accordion-content{
       font-size: 16px;
       border-top: 1px solid $cl--neutral-gray-light-middle;
       border-bottom: transparent;
-      border: 1px solid #fff;
+      // border: 1px solid #fff;
     }
     &__footer::after {
       content:"→";

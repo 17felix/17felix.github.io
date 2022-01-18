@@ -7720,6 +7720,15 @@ input:checked ~ .accordion-content {
   margin: 0 10px;
 }
 
+.menu-adress__title {
+  color: #fff;
+}
+
+.menu-adress__title:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
 .footer-accordion-menu {
   margin-top: 10px;
   margin-left: 30px;
@@ -7786,7 +7795,6 @@ input:checked ~ .accordion-content {
   font-size: 16px;
   border-top: 1px solid #c5c5c5;
   border-bottom: transparent;
-  border: 1px solid #fff;
 }
 
 .accordion-faq__footer::after {
