@@ -7523,6 +7523,28 @@ input:checked ~ .accordion-content {
   padding: 100px 0;
 }
 
+.inspiration {
+  padding: 40px 0;
+}
+
+.soc-nets {
+  margin-top: 40px;
+}
+
+.soc-net-link {
+  margin: 5px;
+  color: white;
+}
+
+.soc-net-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.i-soc-net {
+  font-size: 15px;
+}
+
 @media (min-width: 576px) {
   .container,
   .container-sm {
